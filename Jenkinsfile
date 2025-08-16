@@ -8,6 +8,7 @@ pipeline {
     environment {
         CI = 'true'
     }
+    // test scm poll
     stages {
         stage('Build') {
             steps {
